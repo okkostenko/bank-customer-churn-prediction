@@ -51,22 +51,22 @@ img
 
 1. Data Storage. The local storage that houses the collected data is used to train machine learning models.
 2. Data Preprocessing.
-  a. Data cleaning. Rows with missing values are removed from the data set.
-  b. Data normalization and coding. Categorical data are converted to numeric, redundant characteristics are removed, data are normalized, the maximum and minimum values for numeric columns and category values for categorical ones are stored.
-  c. Splitting the data into appropriate sets (training, test)
+  - Data cleaning. Rows with missing values are removed from the data set.
+  - Data normalization and coding. Categorical data are converted to numeric, redundant characteristics are removed, data are normalized, the maximum and minimum values for numeric columns and category values for categorical ones are stored.
+  - Splitting the data into appropriate sets (training, test)
 3. Model Training. Model Training component provides functionality:
-  a. Creation/initialization of the model with the architecture of a One-Dimencional Convolutional Neural Network.
-  b. Its (re)training with a potential change in the architecture and values of training hyperparameters.
-  c. Final qualitative and quantitative testing of forecasting effectiveness.
-  d. Saving the trained model using the version control algorithm for its further support and improvement of the model.
+  - Creation/initialization of the model with the architecture of a One-Dimencional Convolutional Neural Network.
+  - Its (re)training with a potential change in the architecture and values of training hyperparameters.
+  - Final qualitative and quantitative testing of forecasting effectiveness.
+  - Saving the trained model using the version control algorithm for its further support and improvement of the model.
 4. Predicting customer churn. A component of direct prediction of processed user input by feeding it to the input of the loaded latest most efficient version of the model.
 5. User interface. A component that represents a graphical web user interface that has two main functions:
-  a. Enter all the necessary data about the client (this data will later be transferred to pre-processing, for use by the model)
-  b. View the prediction result
+  - Enter all the necessary data about the client (this data will later be transferred to pre-processing, for use by the model)
+  - View the prediction result
 6. Processing of user data.
-  a. Dataframe formation. Data entered manually are collected in a dataframe, data entered in the form of files are converted into dataframes.
-  b. Data cleaning.
-  c. Data normalization and coding. With the help of the data saved during processing, the numerical and coding of categorical data is normalized.
+  - Dataframe formation. Data entered manually are collected in a dataframe, data entered in the form of files are converted into dataframes.
+  - Data cleaning.
+  - Data normalization and coding. With the help of the data saved during processing, the numerical and coding of categorical data is normalized.
 
 ### Detailed Process Diagram
 
