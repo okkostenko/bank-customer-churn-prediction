@@ -72,6 +72,6 @@ Interface
 
 ![Detailed Processes Diagram](https://raw.githubusercontent.com/okkostenko/bank-customer-churn-prediction/main/images/detailed%20processes%20diagram.jpg)
 
-## Screenshots
+## Run the Program
 
-img
+Run _app.py_ file on your computer.
