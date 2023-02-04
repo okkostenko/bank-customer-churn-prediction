@@ -45,7 +45,7 @@ Interface
 
 ### Component Diagram
 
-img
+![Component Diagram](https://raw.githubusercontent.com/okkostenko/bank-customer-churn-prediction/main/images/component%20diagram.png)
 
 ### Component Functionality
 
@@ -70,7 +70,7 @@ img
 
 ### Detailed Process Diagram
 
-img
+![Detailed Processes Diagram](https://raw.githubusercontent.com/okkostenko/bank-customer-churn-prediction/main/images/detailed%20processes%20diagram.jpg)
 
 ## Screenshots
 
